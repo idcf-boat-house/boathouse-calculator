@@ -44,6 +44,7 @@ exports.calculate = function(req, res) {
     throw new Error("Invalid operand2: " + req.query.operand2);
   }
 
+  // test
   var operand1 = parseInt(req.query.operand1, 10);
   var operand2 = parseInt(req.query.operand2, 10);
 
