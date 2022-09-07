@@ -23,7 +23,7 @@ spec:
               value: root123
             - name: ROOT_PASSWORD
               value: root123
-          image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-node-v2-vscode:all-version
+          image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-base-v2:latest
           imagePullPolicy: Always
           name: boathouse-calculator-dev
           # command: ["/bin/bash", "-ce", "tail -f /dev/null"]

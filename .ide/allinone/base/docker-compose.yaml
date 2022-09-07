@@ -2,8 +2,7 @@
 version: "3"
 services:
   boathouse-calculator-dev:
-    image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-node-v2-vscode:all-version
-    #image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-base-vscode:latest
+    image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-base-v2:latest
     imagePullPolicy: Always
     restart: always
     environment:
